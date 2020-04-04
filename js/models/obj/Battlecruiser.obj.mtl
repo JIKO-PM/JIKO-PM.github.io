@@ -1,0 +1,38 @@
+# Created with Pdo2Obj
+newmtl default
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 1.000 1.000 1.000
+Ns 100.0
+illum 2
+newmtl Standard_8
+map_Kd H:\Battlecruiser.obj_tex0.tga
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 1.000 1.000 1.000
+Ns 100.0
+illum 2
+
+newmtl 15 - Default
+map_Kd H:\Battlecruiser.obj_tex1.tga
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 1.000 1.000 1.000
+Ns 100.0
+illum 2
+
+newmtl wewew
+map_Kd H:\Battlecruiser.obj_tex2.tga
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 1.000 1.000 1.000
+Ns 100.0
+illum 2
+
+newmtl mat1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 1.000 1.000 1.000
+Ns 100.0
+illum 2
+
