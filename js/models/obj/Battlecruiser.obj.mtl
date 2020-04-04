@@ -6,7 +6,7 @@ Ks 1.000 1.000 1.000
 Ns 100.0
 illum 2
 newmtl Standard_8
-map_Kd H:\Battlecruiser.obj_tex0.jpg
+map_Kd Battlecruiser.obj_tex0.jpg
 Ka 1.000 1.000 1.000
 Kd 1.000 1.000 1.000
 Ks 1.000 1.000 1.000
@@ -14,7 +14,7 @@ Ns 100.0
 illum 2
 
 newmtl 15 - Default
-map_Kd H:\Battlecruiser.obj_tex1.jpg
+map_Kd Battlecruiser.obj_tex1.jpg
 Ka 1.000 1.000 1.000
 Kd 1.000 1.000 1.000
 Ks 1.000 1.000 1.000
@@ -22,7 +22,7 @@ Ns 100.0
 illum 2
 
 newmtl wewew
-map_Kd H:\Battlecruiser.obj_tex2.jpg
+map_Kd Battlecruiser.obj_tex2.jpg
 Ka 1.000 1.000 1.000
 Kd 1.000 1.000 1.000
 Ks 1.000 1.000 1.000
