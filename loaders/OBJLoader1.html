@@ -38,7 +38,8 @@
 
     function initCamera() {
         camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 200);
-        camera.position.set(0, 10, 20);
+        // 最开始摄像机的位置------------------------------------------------------------------------------------------------------------------
+        camera.position.set(0, 1, 2);
         camera.lookAt(new THREE.Vector3(0, 0, 0));
     }
 
@@ -55,32 +56,32 @@
     }
 
     function initLight() {
-        ambientLight = new THREE.AmbientLight("#111111");
+        ambientLight = new THREE.AmbientLight("#ffffff");
         scene.add(ambientLight);
 
-        directionalLight = new THREE.DirectionalLight("#ffffff");
-        directionalLight.position.set(40, 60, 10);
+        //directionalLight = new THREE.DirectionalLight("#ffffff");
+        //directionalLight.position.set(40, 60, 10);
 
-        directionalLight.shadow.camera.near = 1; //产生阴影的最近距离
-        directionalLight.shadow.camera.far = 100; //产生阴影的最远距离
-        directionalLight.shadow.camera.left = -10; //产生阴影距离位置的最左边位置
-        directionalLight.shadow.camera.right = 10; //最右边
-        directionalLight.shadow.camera.top = 10; //最上边
-        directionalLight.shadow.camera.bottom = -10; //最下面
+        //directionalLight.shadow.camera.near = 1; //产生阴影的最近距离
+        //directionalLight.shadow.camera.far = 100; //产生阴影的最远距离
+       // directionalLight.shadow.camera.left = -10; //产生阴影距离位置的最左边位置
+        //directionalLight.shadow.camera.right = 10; //最右边
+        //directionalLight.shadow.camera.top = 10; //最上边
+        //directionalLight.shadow.camera.bottom = -10; //最下面
 
         //这两个值决定生成阴影密度 默认512
-        directionalLight.shadow.mapSize.height = 1024;
-        directionalLight.shadow.mapSize.width = 1024;
+        //directionalLight.shadow.mapSize.height = 1024;
+        //directionalLight.shadow.mapSize.width = 1024;
 
         //告诉平行光需要开启阴影投射
-        directionalLight.castShadow = true;
+        //directionalLight.castShadow = true;
 
-        scene.add(directionalLight);
+        //scene.add(directionalLight);
     }
 
     function initModel() {
 
-        //底部平面
+        //底部平面   地面大小  -------------------------------------------------------------------------------------------
         var planeGeometry = new THREE.PlaneGeometry(10, 10);
         var planeMaterial = new THREE.MeshLambertMaterial({color: 0xaaaaaa, side: THREE.DoubleSide});
         var plane = new THREE.Mesh(planeGeometry, planeMaterial);
@@ -91,13 +92,13 @@
 
         //创建MTL加载器
         var mtlLoader = new THREE.MTLLoader();
-        //设置文件路径
+        //设置文件路径-----------------------------------------------------------------------------------------------------
         mtlLoader.setPath('../js/models/obj/');
-        //加载mtl文件
+        //加载mtl文件-------------------------------------------------------------------------------------------------------
         mtlLoader.load('Battlecruiser.obj.mtl', function (material) {
             //创建OBJ加载器
             var objLoader = new THREE.OBJLoader();
-            //设置当前加载的纹理
+            //设置当前加载的纹理-------------------------------------------------------------------------------
             objLoader.setMaterials(material);
             objLoader.setPath('../js/models/obj/');
             objLoader.load('Battlecruiser.obj', function (object) {
