@@ -101,7 +101,7 @@
             var objLoader = new THREE.OBJLoader();
             //设置当前加载的纹理-------------------------------------------------------------------------------
             objLoader.setMaterials(material);
-            objLoader.setPath('/moon-change//');
+            objLoader.setPath('/moon-change/');
             objLoader.load('moon-change.obj', function (object) {
                 //添加阴影
                 object.traverse(function (item) {
