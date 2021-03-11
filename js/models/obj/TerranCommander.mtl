@@ -6,7 +6,7 @@ Ks 1.000 1.000 1.000
 Ns 100.0
 illum 2
 newmtl eye
-map_Kd TerranCommander_tex0.tga
+map_Kd TerranCommander_tex0.jpg
 Ka 1.000 1.000 1.000
 Kd 1.000 1.000 1.000
 Ks 1.000 1.000 1.000
@@ -14,7 +14,7 @@ Ns 100.0
 illum 2
 
 newmtl face
-map_Kd TerranCommander_tex0.tga
+map_Kd TerranCommander_tex0.jpg
 Ka 1.000 1.000 1.000
 Kd 1.000 1.000 1.000
 Ks 1.000 1.000 1.000
@@ -22,7 +22,7 @@ Ns 100.0
 illum 2
 
 newmtl face.001
-map_Kd TerranCommander_tex0.tga
+map_Kd TerranCommander_tex0.jpg
 Ka 1.000 1.000 1.000
 Kd 1.000 1.000 1.000
 Ks 1.000 1.000 1.000
@@ -30,7 +30,7 @@ Ns 100.0
 illum 2
 
 newmtl face.002
-map_Kd TerranCommander_tex0.tga
+map_Kd TerranCommander_tex0.jpg
 Ka 1.000 1.000 1.000
 Kd 1.000 1.000 1.000
 Ks 1.000 1.000 1.000
@@ -38,7 +38,7 @@ Ns 100.0
 illum 2
 
 newmtl facetronlines
-map_Kd TerranCommander_tex1.tga
+map_Kd TerranCommander_tex1.jpg
 Ka 1.000 1.000 1.000
 Kd 1.000 1.000 1.000
 Ks 1.000 1.000 1.000
